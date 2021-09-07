@@ -4825,3 +4825,5 @@ div#toparea {
  @media screen and (max-width: 640px) {
    h1{font-size:48px;line-height:56px;}
  }
+
+ .mw-75 { max-width: 75%; }

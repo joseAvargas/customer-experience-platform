@@ -2,7 +2,8 @@
 <html lang='en'>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>IMGRAM MICRO </title>
+	<title>Customer Experience Platform | Ingram Micro </title>
+	<link rel="icon" type="image/png" href="images/favicon.png" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -102,7 +103,7 @@
 							</div><!-- Console Panel -->
 					</div>
 
-						<div class="grid-stack-item" data-gs-x="3" data-gs-y="29" data-gs-width="9" data-gs-height="17" data-gs-min-height="10"  data-gs-min-width="3">
+						<div id="order-status-table" class="grid-stack-item" data-gs-x="3" data-gs-y="29" data-gs-width="9" data-gs-height="17" data-gs-min-height="10"  data-gs-min-width="3">
 							<div class="console-panel grid-stack-item-content">
 								<div class="console-panel-header">
 									<div class="cph-left">
@@ -130,84 +131,94 @@
 									<table class="table table-striped console-table table-bordered table-hover mb-0">
 										<thead>
 											<tr>
-												<th>Invoice</th>
-												<th>Order Type</th>
-												<th>Order date</th>
-												<th>Amount</th>
+												<th class="hide">Invoice</th>
+												<th class="hide">Order Type</th>
+												<th class="hide">Order date</th>
+												<th class="hide">Amount</th>
+												<th>Reseller PO#</th>
 												<th>Status</th>
 												<th class="text-center">Tracking Number</th>
 											</tr>
 										</thead>
 										<tbody>
 											<tr>
-												<td><a href="javascript:void(0)" class="link"> Order #261180</a></td>
-												<td>Stock</td>
-												<td><span class="text-muted"><i class="fa fa-clock-o"></i> Oct 31, 2014</span></td>
-												<td>$45.00</td>
+												<td class="hide"><a href="javascript:void(0)" class="link"> Order #261180</a></td>
+												<td class="hide">Stock</td>
+												<td class="hide"><span class="text-muted"><i class="fa fa-clock-o"></i> Oct 31, 2014</span></td>
+												<td class="hide">$45.00</td>
+												<td>PO-89934369</td>
 												<td><span class="badge badge-success badge-pill">Delivered</span> </td>
 												<td class="text-center">-</td>
 											</tr>
 											<tr>
-												<td><a href="javascript:void(0)" class="link"> Order #261181</a></td>
-												<td>Stock</td>
-												<td><span class="text-muted"><i class="fa fa-clock-o"></i> Nov 01, 2020</span></td>
-												<td>$245.30</td>
+												<td class="hide"><a href="javascript:void(0)" class="link"> Order #261181</a></td>
+												<td class="hide">Stock</td>
+												<td class="hide"><span class="text-muted"><i class="fa fa-clock-o"></i> Nov 01, 2020</span></td>
+												<td class="hide">$245.30</td>
+												<td>PO-41534369</td>
 												<td> <span class="badge badge-warning badge-pill">In Transit</span> </td>
 												<td class="text-center">
 													<a href="javascript:void(0)" class="link"><i class="fa fa-plane"></i> FEDX55668776</a><tr>
-												<td><a href="javascript:void(0)" class="link"> Order #261187</a></td>
-												<td>Download</td>
-												<td><span class="text-muted"><i class="fa fa-clock-o"></i> Nov 12, 2020</span></td>
-												<td>$38.00</td>
+												<td class="hide"><a href="javascript:void(0)" class="link"> Order #261187</a></td>
+												<td class="hide">Download</td>
+												<td class="hide"><span class="text-muted"><i class="fa fa-clock-o"></i> Nov 12, 2020</span></td>
+												<td class="hide">$38.00</td>
+												<td>PO-41534841</td>
 												<td> <span class="badge badge-warning badge-pill">In Transit</span> </td>
 												<td class="text-center"><a href="javascript:void(0)" class="link dialog "><i class="fa fa-plane"></i> FEDX55668844</a></td>
 											</tr></a></td>
 											</tr>
 											<tr>
-												<td><a href="javascript:void(0)" class="link"> Order #261182</a></td>
-												<td>Download</td>
-												<td><span class="text-muted"><i class="fa fa-clock-o"></i> Nov 01, 2020</span></td>
-												<td>$38.00</td>
+												<td class="hide"><a href="javascript:void(0)" class="link"> Order #261182</a></td>
+												<td class="hide">Download</td>
+												<td class="hide"><span class="text-muted"><i class="fa fa-clock-o"></i> Nov 01, 2020</span></td>
+												<td class="hide">$38.00</td>
+												<td>PO-41538474</td>
 												<td> <span class="badge badge-warning badge-pill">In Transit</span> </td>
 												<td class="text-center"><a href="javascript:void(0)" class="link"><i class="fa fa-plane"></i> FEDX55668765</a></td>
 											</tr>
 											<tr>
-												<td><a href="javascript:void(0)" class="link"> Order #261183</a></td>
-												<td>Stocked</td>
-												<td><span class="text-muted"><i class="fa fa-clock-o"></i> Nov 05, 2020</span></td>
-												<td>$77.99</td>
+												<td class="hide"><a href="javascript:void(0)" class="link"> Order #261183</a></td>
+												<td class="hide">Stocked</td>
+												<td class="hide"><span class="text-muted"><i class="fa fa-clock-o"></i> Nov 05, 2020</span></td>
+												<td class="hide">$77.99</td>
+												<td>PO-32538474</td>
 												<td> <span class="badge badge-warning badge-pill">In Transit</span> </td>
 												<td class="text-center"><a href="javascript:void(0)" class="link" data-toggle="modal" data-target=".bd-example-modal-lg" ><i class="fa fa-plane"></i> FEDX55668222</a></td>
 											</tr>
 											<tr>
-												<td><a href="javascript:void(0)" class="link"> Order #261187</a></td>
-												<td>Download</td>
-												<td><span class="text-muted"><i class="fa fa-clock-o"></i> Nov 12, 2020</span></td>
-												<td>$38.00</td>
+												<td class="hide"><a href="javascript:void(0)" class="link"> Order #261187</a></td>
+												<td class="hide">Download</td>
+												<td class="hide"><span class="text-muted"><i class="fa fa-clock-o"></i> Nov 12, 2020</span></td>
+												<td class="hide">$38.00</td>
+												<td>PO-12253848</td>
 												<td> <span class="badge badge-warning badge-pill">In Transit</span> </td>
 												<td class="text-center"><a href="javascript:void(0)" class="link dialog "><i class="fa fa-plane"></i> FEDX55668432</a></td>
 											</tr>
 											<tr>
-												<td><a href="javascript:void(0)" class="link"> Order #261184</a></td>
-												<td>Download</td>
-												<td><span class="text-muted"><i class="fa fa-clock-o"></i> Nov 06, 2020</span></td>
-												<td>$18.00</td>
+												<td class="hide"><a href="javascript:void(0)" class="link"> Order #261184</a></td>
+												<td class="hide">Download</td>
+												<td class="hide"><span class="text-muted"><i class="fa fa-clock-o"></i> Nov 06, 2020</span></td>
+												<td class="hide">$18.00</td>
+												<td>PO-34343212</td>
 												<td> <span class="badge badge-success badge-pill">Delivered</span> </td>
 												<td class="text-center">-</td>
 											</tr>
 											<tr>
-												<td><a href="javascript:void(0)" class="link">Order #261185</a></td>
-												<td>Stock</td>
-												<td><span class="text-muted"><i class="fa fa-clock-o"></i> Nov 06, 2020</span></td>
-												<td>$658.00</td>
+												<td class="hide"><a href="javascript:void(0)" class="link">Order #261185</a></td>
+												<td class="hide">Stock</td>
+												<td class="hide"><span class="text-muted"><i class="fa fa-clock-o"></i> Nov 06, 2020</span></td>
+												<td class="hide">$658.00</td>
+												<td>PO-34343694</td>
 												<td> <span class="badge badge-danger badge-pill">Refunded</span> </td>
 												<td class="text-center">-</td>
 											</tr>
 											<tr>
-												<td><a href="javascript:void(0)" class="link">Order #261186</a></td>
-												<td>Stock</td>
-												<td><span class="text-muted"><i class="fa fa-clock-o"></i> Nov 11, 2020</span></td>
-												<td>$45.58</td>
+												<td class="hide"><a href="javascript:void(0)" class="link">Order #261186</a></td>
+												<td class="hide">Stock</td>
+												<td class="hide"><span class="text-muted"><i class="fa fa-clock-o"></i> Nov 11, 2020</span></td>
+												<td class="hide">$45.58</td>
+												<td>PO-56343694</td>
 												<td> <span class="badge badge-suceess badge-pill">Delivered</span> </td>
 												<td class="text-center">-</td>
 											</tr>
@@ -230,10 +241,10 @@
 	<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 		<div class="modal-dialog modal-lg">
 		  <div class="modal-content">
-			<img src="images/map.png">
+			<img src="images/map_zoom.gif" class="mw-75">
 		  </div>
 		</div>
-	  </div>
+	</div>
 
 
 	<script src="js/jquerymain_jquerytouch_jquerycookies.js"></script>
