@@ -185,11 +185,11 @@ $(window).on("load", function(){
 
 
       /*=== Toaster Settings ===*/
-      $.toaster({
-            settings : {
-                  'timeout':3500
-            }
-      });
+      // $.toaster({
+      //       settings : {
+      //             'timeout':3500
+      //       }
+      // });
 
 
 
@@ -199,6 +199,22 @@ $(window).on("load", function(){
       // ============================//
       // DEMO OPTIONS //
       // ============================//
+
+      // ===== Order Status Table =====//
+      $("#order-status-table").resize(function () {
+            let table_width = $(this).width();
+            let breakpoints = {
+                  "small": 700,
+                  "medium": 900,
+                  "large": 1200,
+            }
+            if (table_width >= breakpoints.small) {
+                  $(".hide").show();
+            }
+            else if(table_width <= breakpoints.small) {
+                  $(".hide").hide();  
+            }
+      })
 
       // ===== Header Background Start =====//
       $(document).on("change", "#default_header", function(){
